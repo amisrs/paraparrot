@@ -55,7 +55,7 @@ async def on_message(message):
             print('The rest of the message is: ' + rest_of_message)
 
 
-            await client.send_message(message.channel, 'only normies ' + target_verb + rest_of_message)
+            await client.send_message(message.channel, 'only losers ' + target_verb + rest_of_message)
         print(word_pos)
         #await client.send_message(message.channel, word_pos)
         # if it does then pull a verb and noun
